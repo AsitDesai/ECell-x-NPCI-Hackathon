@@ -22,3 +22,5 @@ Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard
 - Drives higher customer spending and repeat visits.  
 - Provides actionable insights for vendors via big data analytics.  
 - Boosts customer retention with personalized rewards.  
+
+# 2) Final report:
