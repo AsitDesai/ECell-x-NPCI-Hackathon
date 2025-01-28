@@ -43,19 +43,19 @@ This Python script demonstrates an in-memory SQLite-based customer loyalty and r
 - Generate bar and line charts for insights.  
 
 # 3) [Technical Implementation:](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Technical%20Implementation.pdf)
-# Advanced Features and Future Enhancements
+### Advanced Features and Future Enhancements
 
-## 1. Blockchain Integration
+## Blockchain Integration
 - **Objective:** Enhance security and transparency in the reward system using blockchain.
 - **Features:** Immutable transaction records, transparent point tracking, and secure ledger.
 - **Impact:** Increases trust and reduces fraud.
 
-## 2. AI-Powered Recommendations
+## AI-Powered Recommendations
 - **Objective:** Use AI to provide personalized product recommendations based on customer behavior.
 - **Features:** Personalized suggestions, behavioral insights, and increased engagement.
 - **Impact:** Boosts sales and improves customer experience.
 
-## 3. Multi-Currency Support
+## Multi-Currency Support
 - **Objective:** Enable global support by integrating multiple currencies.
 - **Features:** Currency conversion, automatic adjustments based on exchange rates.
 - **Impact:** Expands the system's reach to international customers.
