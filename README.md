@@ -1,7 +1,8 @@
-# ECell-x-NPCI-Hackathon (https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf)
+# ECell-x-NPCI-Hackathon 
 Business model for NPCI Hackathon organized by Entrepreneurship Cell, IIT Hyderabad
 
 # 1) Proof of concepts:
+Link: https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf
 ## Unified Reward System for Retail Vendors and Customers
 Overview
 A centralized platform integrating small, medium, and large vendors to enhance customer loyalty and vendor profitability. Customers earn and redeem reward points across vendors via a mobile app.
