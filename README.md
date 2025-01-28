@@ -60,4 +60,41 @@ This Python script demonstrates an in-memory SQLite-based customer loyalty and r
 - **Features:** Currency conversion, automatic adjustments based on exchange rates.
 - **Impact:** Expands the system's reach to international customers.
 
+# 4) Math proof
+# Vendor Reward System Simulation
+
+## Overview
+This project simulates customer behavior in a vendor reward system across three types of vendors: Small, Medium, and Big. The goal is to simulate customer transactions before and after the implementation of a reward system, comparing sales and spending behaviors.
+
+## Features
+- **Before Reward Simulation**: Customers make random transactions with different frequencies and amounts across small, medium, and big vendors.
+- **After Reward Simulation**: A reward system is introduced, where customers earn and redeem points based on their spending, which influences their behavior.
+- **Threshold-Driven Spending**: Customers increase their spending when thresholds are implemented, motivated by potential rewards.
+- **Increased Engagement with Fast Food and Entertainment Sectors**: The simulation reflects increased customer engagement, especially in sectors like fast food chains, with higher spending and frequency due to loyalty programs.
+
+## Libraries Used
+- **Pandas**: For handling and processing transaction data.
+- **NumPy**: For random number generation and simulation logic.
+- **Matplotlib**: For visualizing sales data in bar charts.
+
+## Code Explanation
+
+### `before_reward()`
+Simulates transactions before rewards are implemented, calculating total sales for small, medium, and big vendors.
+
+### `after_reward()`
+Simulates transactions after rewards are implemented, incorporating loyalty points and customers' increased spending behavior due to rewards. 
+
+### Key Simulations
+- **Threshold-Driven Spending**: Customers are incentivized to increase their spending when thresholds are implemented.
+- **Increased Engagement with Fast Food and Entertainment Sectors**: A boost in customer visit frequency and ticket size when loyalty programs are introduced.
+
+### Output
+- Average sales for each vendor type (Small, Medium, Big) before and after the implementation of the reward system.
+- A bar chart that compares sales before and after the reward system for each vendor type.
+
+## Running the Code
+Simply run the Python script, and it will simulate the transactions, calculate average sales, and display a bar chart comparing sales before and after the reward system.
+
+
 
