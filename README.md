@@ -23,4 +23,4 @@ Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard
 - Provides actionable insights for vendors via big data analytics.  
 - Boosts customer retention with personalized rewards.  
 
-# 2) Final report:
+# 2) [Database Implementation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/database_implementation):
