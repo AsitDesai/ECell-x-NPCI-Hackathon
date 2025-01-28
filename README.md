@@ -96,5 +96,5 @@ Simulates transactions after rewards are implemented, incorporating loyalty poin
 ## Running the Code
 Simply run the Python script, and it will simulate the transactions, calculate average sales, and display a bar chart comparing sales before and after the reward system.
 
-
+![Sales Chart](sales_graph.png)
 
