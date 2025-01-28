@@ -1,6 +1,9 @@
 # ECell-x-NPCI-Hackathon  
 Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard/portal) organized by Entrepreneurship Cell, IIT Hyderabad  
 
+URS is a cross-vendor rewards platform integrated with **NPCI** for secure, seamless point accumulation and redemption across multiple retail chains. It benefits both customers and vendors by driving engagement and sales.
+[Final Report](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Final%20Report.pdf)
+
 # Our Solution
 
 ![Unified Reward System](Unified_Reward_System.png)
