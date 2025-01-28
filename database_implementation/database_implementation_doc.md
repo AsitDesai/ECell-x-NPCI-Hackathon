@@ -199,8 +199,6 @@ pip install tabulate matplotlib numpy
 
 ### **9.1 Table Display**
 
-# Unified Reward System - Database Schema
-
 ## Table: Customers
 | customer_id | name   | email              | phone       | wallet_balance | created_at          | updated_at          |
 |-------------|--------|--------------------|-------------|----------------|---------------------|---------------------|
