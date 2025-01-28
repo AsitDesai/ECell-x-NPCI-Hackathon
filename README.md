@@ -1,4 +1,4 @@
-# ECell-x-NPCI-Hackathon
+# ECell-x-NPCI-Hackathon (https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf)
 Business model for NPCI Hackathon organized by Entrepreneurship Cell, IIT Hyderabad
 
 # 1) Proof of concepts:
