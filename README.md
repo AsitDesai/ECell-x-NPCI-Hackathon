@@ -24,3 +24,26 @@ Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard
 - Boosts customer retention with personalized rewards.  
 
 # 2) [Database Implementation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/database_implementation):
+
+### Customer Loyalty and Rewards System  
+
+This Python script demonstrates an in-memory SQLite-based customer loyalty and rewards system, including database creation, data management, and real-time visualizations.  
+
+## Features  
+- **Database Setup**: Tables for customers, vendors, transactions, rewards, products, and analytics.  
+- **Sample Data**: Pre-filled data for demonstration (5 entries per table).  
+- **Visualizations**: Real-time dashboard using `matplotlib`:  
+  - Transaction volumes per vendor.  
+  - Reward points issued vs. redeemed.  
+  - Profitability trends (revenue minus rewards).  
+
+## Key Functions  
+- Display tables using `tabulate`.  
+- Analyze transactions, rewards, and profitability.  
+- Generate bar and line charts for insights.  
+
+## Dependencies  
+Install required libraries:  
+```bash
+pip install tabulate matplotlib numpy
+
