@@ -1,5 +1,5 @@
-# ECell-x-NPCI-Hackathon [Problem statement](https://hackathon.ecelliith.org.in/dashboard/portal)
-Business model for NPCI Hackathon organized by Entrepreneurship Cell, IIT Hyderabad
+# ECell-x-NPCI-Hackathon
+Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard/portal) organized by Entrepreneurship Cell, IIT Hyderabad
 
 # 1) [Proof of concepts:](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf)
 
