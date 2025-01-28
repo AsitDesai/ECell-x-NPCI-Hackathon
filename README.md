@@ -93,3 +93,5 @@ Simply run the Python script, and it will simulate the transactions, calculate a
 
 ![Sales Chart](sales_graph.png)
 
+# [UI Ideation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/UI%20ideation.pdf)
+### We have shown how our frontend for the application will look.
