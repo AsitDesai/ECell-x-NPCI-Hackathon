@@ -105,4 +105,4 @@ Simply run the Python script, and it will simulate the transactions, calculate a
 
 ## 5) [UI Ideation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/UI%20ideation.pdf)  
 
-### We have shown how our frontend for the application will look.
+### We have shown how our demo frontend for the application will look.
