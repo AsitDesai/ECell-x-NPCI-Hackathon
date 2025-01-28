@@ -42,10 +42,4 @@ This Python script demonstrates an in-memory SQLite-based customer loyalty and r
 - Analyze transactions, rewards, and profitability.  
 - Generate bar and line charts for insights.  
 
-## Dependencies  
-Install required libraries:  
-```bash
-pip install tabulate matplotlib numpy
-
-wsdsd
 
