@@ -60,7 +60,7 @@ This Python script demonstrates an in-memory SQLite-based customer loyalty and r
 - **Features:** Currency conversion, automatic adjustments based on exchange rates.
 - **Impact:** Expands the system's reach to international customers.
 
-# 4) Math proof
+# 4) [Math proof](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/math_proof.py)
 # Vendor Reward System Simulation
 
 ## Overview
