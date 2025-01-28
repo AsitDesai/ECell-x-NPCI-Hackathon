@@ -1,6 +1,8 @@
 # ECell-x-NPCI-Hackathon  
 Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard/portal) organized by Entrepreneurship Cell, IIT Hyderabad  
 
+![Unified Reward System](Unified_Reward_System.png)
+
 ## 1) [Proof of Concept (PoC)](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf)  
 
 ### Unified Reward System for Retail Vendors and Customers  
