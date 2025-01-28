@@ -61,7 +61,7 @@ This Python script demonstrates an in-memory SQLite-based customer loyalty and r
 - **Impact:** Expands the system's reach to international customers.
 
 # 4) [Math proof (code):](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/math_proof.py)
-# Vendor Reward System Simulation
+### Vendor Reward System Simulation
 
 ## Overview
 This project simulates customer behavior in a vendor reward system across three types of vendors: Small, Medium, and Big. The goal is to simulate customer transactions before and after the implementation of a reward system, comparing sales and spending behaviors.
