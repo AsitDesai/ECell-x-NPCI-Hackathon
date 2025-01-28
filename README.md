@@ -1,127 +1,100 @@
-# **ECell-x-NPCI-Hackathon Business Model**
+# ECell-x-NPCI-Hackathon  
+Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard/portal) organized by Entrepreneurship Cell, IIT Hyderabad  
 
-## **Overview**
+# 1) [Proof of concepts:](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf)  
 
-The **ECell-x-NPCI Hackathon** organized by the Entrepreneurship Cell, IIT Hyderabad, presents an opportunity to create an innovative **Unified Reward System** for retail vendors and customers. The system aims to integrate small, medium, and large vendors into a centralized platform that drives customer loyalty and enhances vendor profitability.
+### Unified Reward System for Retail Vendors and Customers  
 
----
+**Overview**  
+- A centralized platform integrating small, medium, and large vendors to enhance customer loyalty and vendor profitability.  
+- Customers earn and redeem reward points across vendors via a mobile app.  
 
-## **1) Proof of Concept**
+**Key Features**  
+- **Small Vendors**:  
+  - Earn points after crossing spending thresholds; points are non-redeemable.  
+- **Medium Vendors**:  
+  - Redeemable points for discounts on future purchases.  
+- **Big Vendors**:  
+  - Flexible redemption policies.  
+  - Big data insights for customer trends and inventory management.  
 
-### **Unified Reward System for Retail Vendors and Customers**
+**Benefits**  
+- Drives higher customer spending and repeat visits.  
+- Provides actionable insights for vendors via big data analytics.  
+- Boosts customer retention with personalized rewards.  
 
-This platform is designed to allow customers to earn and redeem reward points across various vendors through a mobile app. The rewards are structured differently based on the size of the vendor.
+# 2) [Database Implementation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/database_implementation):
 
-### **Key Features**
+### Customer Loyalty and Rewards System  
 
-- **Small Vendors:**
-  - Customers earn points after crossing spending thresholds.
-  - Points are non-redeemable, incentivizing higher spending.
-  
-- **Medium Vendors:**
-  - Redeemable points that offer discounts on future purchases.
+This Python script demonstrates an in-memory SQLite-based customer loyalty and rewards system, including database creation, data management, and real-time visualizations.  
 
-- **Big Vendors:**
-  - Flexible reward redemption policies.
-  - Big data analytics to understand customer trends and optimize inventory management.
+## Features  
+- **Database Setup**: Tables for customers, vendors, transactions, rewards, products, and analytics.  
+- **Sample Data**: Pre-filled data for demonstration (5 entries per table).  
+- **Visualizations**: Real-time dashboard using `matplotlib`:  
+  - Transaction volumes per vendor.  
+  - Reward points issued vs. redeemed.  
+  - Profitability trends (revenue minus rewards).  
 
-### **Benefits**
-- **Customer Engagement:** Encourages higher customer spending and repeat visits.
-- **Data Insights:** Provides actionable insights for vendors using big data analytics.
-- **Customer Retention:** Boosts loyalty with personalized rewards based on spending behavior.
+## Key Functions  
+- Display tables using `tabulate`.  
+- Analyze transactions, rewards, and profitability.  
+- Generate bar and line charts for insights.  
 
----
+# 3) [Technical Implementation:](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Technical%20Implementation.pdf)
+### Advanced Features and Future Enhancements
 
-## **2) Database Implementation**
+## Blockchain Integration
+- **Objective:** Enhance security and transparency in the reward system using blockchain.
+- **Features:** Immutable transaction records, transparent point tracking, and secure ledger.
+- **Impact:** Increases trust and reduces fraud.
 
-### **Customer Loyalty and Rewards System**
-
-This Python-based implementation uses **SQLite** for in-memory database management. It includes customer data, transaction tracking, and real-time visualizations for insights.
-
-### **Features**
-- **Database Setup:**
-  - Tables for **Customers**, **Vendors**, **Transactions**, **Rewards**, **Products**, and **Analytics**.
-  
-- **Sample Data:**
-  - Pre-filled data (5 entries per table) for demonstration.
-
-- **Visualizations:**
-  - Real-time dashboards using **Matplotlib** to visualize:
-    - Transaction volumes per vendor.
-    - Reward points issued vs. redeemed.
-    - Profitability trends (Revenue minus rewards).
-
-### **Key Functions**
-- Display tables using **Tabulate**.
-- Analyze transactions, rewards, and profitability.
-- Generate bar and line charts for insightful data visualization.
-
----
-
-## **3) Technical Implementation**
-
-### **Advanced Features and Future Enhancements**
-
-#### **Blockchain Integration**
-- **Objective:** Improve security and transparency in the reward system.
-- **Features:** Immutable transaction records, transparent point tracking, and a secure ledger.
-- **Impact:** Increased trust and reduced fraud in the system.
-
-#### **AI-Powered Recommendations**
+## AI-Powered Recommendations
 - **Objective:** Use AI to provide personalized product recommendations based on customer behavior.
-- **Features:** Behavioral insights and suggestions tailored to individual preferences.
-- **Impact:** Increases engagement, boosts sales, and improves customer experience.
+- **Features:** Personalized suggestions, behavioral insights, and increased engagement.
+- **Impact:** Boosts sales and improves customer experience.
 
-#### **Multi-Currency Support**
-- **Objective:** Extend the system’s global reach by enabling multi-currency support.
-- **Features:** Currency conversion and automatic adjustments based on exchange rates.
-- **Impact:** Expands the platform’s reach to international customers.
+## Multi-Currency Support
+- **Objective:** Enable global support by integrating multiple currencies.
+- **Features:** Currency conversion, automatic adjustments based on exchange rates.
+- **Impact:** Expands the system's reach to international customers.
 
----
+# 4) [Math proof](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/math_proof.py)
+# Vendor Reward System Simulation
 
-## **4) Vendor Reward System Simulation**
+## Overview
+This project simulates customer behavior in a vendor reward system across three types of vendors: Small, Medium, and Big. The goal is to simulate customer transactions before and after the implementation of a reward system, comparing sales and spending behaviors.
 
-### **Overview**
+## Features
+- **Before Reward Simulation**: Customers make random transactions with different frequencies and amounts across small, medium, and big vendors.
+- **After Reward Simulation**: A reward system is introduced, where customers earn and redeem points based on their spending, which influences their behavior.
+- **Threshold-Driven Spending**: Customers increase their spending when thresholds are implemented, motivated by potential rewards.
+- **Increased Engagement with Fast Food and Entertainment Sectors**: The simulation reflects increased customer engagement, especially in sectors like fast food chains, with higher spending and frequency due to loyalty programs.
 
-This simulation models customer behavior before and after implementing a reward system. By simulating different customer transactions at small, medium, and big vendors, the project demonstrates the effectiveness of loyalty programs in driving sales and customer engagement.
+## Libraries Used
+- **Pandas**: For handling and processing transaction data.
+- **NumPy**: For random number generation and simulation logic.
+- **Matplotlib**: For visualizing sales data in bar charts.
 
-### **Features**
-- **Before Reward Simulation:** 
-  - Random customer transactions at various frequencies and amounts across vendor types.
-  
-- **After Reward Simulation:**
-  - Loyalty points are introduced, motivating customers to increase their spending.
+## Code Explanation
 
-- **Threshold-Driven Spending:**
-  - Customers are incentivized to cross spending thresholds to earn more points.
+### `before_reward()`
+Simulates transactions before rewards are implemented, calculating total sales for small, medium, and big vendors.
 
-- **Sector-Specific Engagement:**
-  - Higher engagement is observed in fast food and entertainment sectors due to reward programs.
+### `after_reward()`
+Simulates transactions after rewards are implemented, incorporating loyalty points and customers' increased spending behavior due to rewards. 
 
-### **Libraries Used**
-- **Pandas:** For data processing and handling transaction data.
-- **NumPy:** For generating random numbers and simulating customer behavior.
-- **Matplotlib:** For visualizing sales data.
+### Key Simulations
+- **Threshold-Driven Spending**: Customers are incentivized to increase their spending when thresholds are implemented.
+- **Increased Engagement with Fast Food and Entertainment Sectors**: A boost in customer visit frequency and ticket size when loyalty programs are introduced.
 
-### **Code Explanation**
+### Output
+- Average sales for each vendor type (Small, Medium, Big) before and after the implementation of the reward system.
+- A bar chart that compares sales before and after the reward system for each vendor type.
 
-#### **`before_reward()`**
-Simulates transactions before rewards are implemented. It calculates total sales for small, medium, and big vendors.
+## Running the Code
+Simply run the Python script, and it will simulate the transactions, calculate average sales, and display a bar chart comparing sales before and after the reward system.
 
-#### **`after_reward()`**
-Simulates customer behavior post-reward system implementation, where loyalty points are earned and redeemed based on spending.
-
-### **Key Simulations**
-- **Threshold-Driven Spending:** Customers increase spending when rewards are in play.
-- **Increased Engagement with Fast Food and Entertainment Sectors:** More frequent visits and higher transaction amounts are observed.
-
-### **Output**
-- Average sales before and after the reward system across different vendor types.
-- Bar chart comparing sales before and after the reward system.
-
-### **Example Output:**
 ![Sales Chart](sales_graph.png)
 
----
-
- 
