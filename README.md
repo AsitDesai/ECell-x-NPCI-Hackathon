@@ -3,7 +3,7 @@ Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard
 
 # Our Solution
 
-URS is a cross-vendor rewards platform integrated with **NPCI** for secure, seamless point accumulation and redemption across multiple retail chains. It benefits both customers and vendors by driving engagement and sales.
+Unified Reward System (URS) is a cross-vendor rewards platform integrated with **NPCI** for secure, seamless point accumulation and redemption across multiple retail chains. It benefits both customers and vendors by driving engagement and sales.
 [Final Report](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Final%20Report.pdf)
 
 
