@@ -23,7 +23,7 @@ Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard
 - Provides actionable insights for vendors via big data analytics.  
 - Boosts customer retention with personalized rewards.  
 
-# 2) [Database Implementation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/database_implementation):
+# 2) [Database Implementation:](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/database_implementation)
 
 ### Customer Loyalty and Rewards System  
 
@@ -60,7 +60,7 @@ This Python script demonstrates an in-memory SQLite-based customer loyalty and r
 - **Features:** Currency conversion, automatic adjustments based on exchange rates.
 - **Impact:** Expands the system's reach to international customers.
 
-# 4) [Math proof](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/math_proof.py)
+# 4) [Math proof (code):](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/math_proof.py)
 # Vendor Reward System Simulation
 
 ## Overview
@@ -71,11 +71,6 @@ This project simulates customer behavior in a vendor reward system across three 
 - **After Reward Simulation**: A reward system is introduced, where customers earn and redeem points based on their spending, which influences their behavior.
 - **Threshold-Driven Spending**: Customers increase their spending when thresholds are implemented, motivated by potential rewards.
 - **Increased Engagement with Fast Food and Entertainment Sectors**: The simulation reflects increased customer engagement, especially in sectors like fast food chains, with higher spending and frequency due to loyalty programs.
-
-## Libraries Used
-- **Pandas**: For handling and processing transaction data.
-- **NumPy**: For random number generation and simulation logic.
-- **Matplotlib**: For visualizing sales data in bar charts.
 
 ## Code Explanation
 
