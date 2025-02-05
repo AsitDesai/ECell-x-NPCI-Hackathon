@@ -5,6 +5,7 @@ Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard
 We have developed a mobile app as well as web based software application that represents our URS model.
 The detailed desciptions of the [App](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/App) and [Web](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/Website) are in this repository.
 The codebase and the documentations are attached in the directories as well.
+The step by step guide on using the app and website can be found in the [Instructions](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/App%20Demo%20System%20Setup.pdf) document.
 
 # Our Solution
 
