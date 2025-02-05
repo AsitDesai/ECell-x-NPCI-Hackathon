@@ -1,145 +1,108 @@
-# URS App
+# ECell-x-NPCI-Hackathon  
+Business model for NPCI [Hackathon](https://hackathon.ecelliith.org.in/dashboard/portal) organized by Entrepreneurship Cell, IIT Hyderabad  
 
-## Team: Chill__guys
+# Our Solution
 
-The URS App is a modern digital payment and billing system designed to provide users with a secure, convenient, and efficient way to manage transactions. The app integrates multiple functionalities, including payment processing, QR code scanning, bill management, and vendor analytics.
+Unified Reward System (URS) is a cross-vendor rewards platform integrated with **NPCI** for secure, seamless point accumulation and redemption across multiple retail chains. It benefits both customers and vendors by driving engagement and sales.
+[Final Report](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Final%20Report.pdf)
 
-<img src="FrontPage.jpeg" alt="Front Page" width="250" />
 
+![Unified Reward System](Unified_Reward_System.png)
 
----
+## 1) [Proof of Concept (PoC)](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf)  
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Core Features](#core-features)
-- [Setup Instructions](#setup-instructions)
-- [Database Structure](#database-structure)
-- [Future Improvements](#future-improvements)
+### Unified Reward System for Retail Vendors and Customers  
 
----
+**Overview**  
+- A centralized platform integrating small, medium, and large vendors to enhance customer loyalty and vendor profitability.  
+- Customers earn and redeem reward points across vendors via a mobile app.
 
-## Project Structure
-The application follows a structured organization of files and directories:
+**Key Features**  
+- **Small Vendors**:  
+  - Earn points after crossing spending thresholds; points are non-redeemable.  
+- **Medium Vendors**:  
+  - Redeemable points for discounts on future purchases.  
+- **Big Vendors**:  
+  - Flexible redemption policies.  
+  - Big data insights for customer trends and inventory management.
 
-```bash
-lib/
-├── database/
-│   ├── database_helper.dart
-│   ├── vendor_data_manager.dart
-├── models/
-│   ├── vendor.dart
-│   ├── phone.dart
-│   ├── transaction.dart
-├── screens/
-│   ├── login_page.dart
-│   ├── home_page.dart
-│   ├── payment_screen.dart
-│   ├── qr_scanner_screen.dart
-│   ├── transaction_history.dart
-│   ├── create_bill.dart
-│   ├── my_bills.dart
-│   ├── profile_screen.dart
-│   ├── settings_screen.dart
-├── main.dart
-```
+**Benefits**  
+- Drives higher customer spending and repeat visits.  
+- Provides actionable insights for vendors via big data analytics.  
+- Boosts customer retention with personalized rewards.
 
 ---
 
-## Core Features
+## 2) [Database Implementation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/tree/main/database_implementation)  
 
-### Authentication System
-- Secure login using Firebase Authentication
-- UPI ID addition for seamless payments
-- User profile management
+### Customer Loyalty and Rewards System  
 
-### Payment Features
-- **QR Code Scanning**: Users can scan vendor-generated QR codes to initiate payments.
-- **UPI Payments**: Transactions are processed seamlessly through UPI.
-- **Transaction History**: Users can view past payments with details such as amount, vendor name, and date.
-- **Bill Management**: Create, store, and categorize bills.
-- **Digital Receipts**: Download or share receipts.
+This Python script demonstrates an in-memory SQLite-based customer loyalty and rewards system, including database creation, data management, and real-time visualizations.  
 
-### Business Tools
-- **Vendor Analytics**: Track earnings and customer spending trends.
-- **Customer Reward Points**: Earn points on purchases and redeem rewards.
+### Features  
+- **Database Setup**: Tables for customers, vendors, transactions, rewards, products, and analytics.  
+- **Sample Data**: Pre-filled data for demonstration (5 entries per table).  
+- **Visualizations**: Real-time dashboard using `matplotlib`:  
+  - Transaction volumes per vendor.  
+  - Reward points issued vs. redeemed.  
+  - Profitability trends (revenue minus rewards).  
 
----
-
-## Setup Instructions
-
-Follow these steps to set up the URS App in your local development environment:
-
-### Prerequisites
-Ensure you have the following installed:
-- [Flutter SDK](https://flutter.dev/docs/get-started/install)
-- [Dart SDK](https://dart.dev/get-dart)
-- [Android Studio or VS Code](https://developer.android.com/studio)
-- Firebase account with authentication enabled
-
----
-### Refer : [App code Documentataion](https://github.com/AdityaKharmaleGoat7/ECell-x-NPCI-Hackathon/blob/main/App_code_documentation.pdf)
-### Demo video of app : [Video](https://github.com/AdityaKharmaleGoat7/ECell-x-NPCI-Hackathon/tree/main/Demo%20video%20of%20app%20working)
-### APK of app: [Drive link](https://drive.google.com/file/d/1Imku20th1UopptEuNCiU-2p68y25Y2lH/view?usp=drive_link)
----
-
-### Step-by-Step Setup
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/AdityaKharmaleGoat7/ECell-x-NPCI-Hackathon.git
-   cd ECell-x-NPCI-Hackathon
-   ```
-
-2. **Install dependencies**
-   ```sh
-   flutter pub get
-   ```
-
-3. **Configure Firebase**
-   - Create a Firebase project.
-   - Enable Authentication (Email/Password Sign-In).
-   - Download `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS) and place them in the respective `android/app/` and `ios/Runner/` directories.
-
-4. **Run the app**
-   ```sh
-   flutter run
-   ```
+### Key Functions  
+- Display tables using `tabulate`.  
+- Analyze transactions, rewards, and profitability.  
+- Generate bar and line charts for insights.
 
 ---
 
-## Database Structure
-The app uses SQLite for local data storage.
+## 3) [Technical Implementation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Technical%20Implementation.pdf)  
 
-### Vendors Table
-Stores vendor details:
-- `vendorId`: Unique identifier
-- `upiId`: UPI ID
-- `name`: Business name
-- `type`: Vendor category (small, medium, big)
+### Advanced Features and Future Enhancements  
 
-### Transactions Table
-Stores transaction history:
-- `transactionId`: Unique transaction identifier
-- `amount`: Transaction amount
-- `vendorId`: Associated vendor
-- `rewardPoints`: Earned reward points
+#### Blockchain Integration  
+- **Objective**: Enhance security and transparency in the reward system using blockchain.  
+- **Features**: Immutable transaction records, transparent point tracking, and secure ledger.  
+- **Impact**: Increases trust and reduces fraud.
 
-### Bills Table
-Stores bills linked to transactions:
-- `billId`: Unique bill identifier
-- `transactionId`: Associated transaction
-- `items`: List of purchased items
+#### AI-Powered Recommendations  
+- **Objective**: Use AI to provide personalized product recommendations based on customer behavior.  
+- **Features**: Personalized suggestions, behavioral insights, and increased engagement.  
+- **Impact**: Boosts sales and improves customer experience.
+
+#### Multi-Currency Support  
+- **Objective**: Enable global support by integrating multiple currencies.  
+- **Features**: Currency conversion, automatic adjustments based on exchange rates.  
+- **Impact**: Expands the system's reach to international customers.
 
 ---
 
-## Future Improvements
-- **Biometric Authentication**: Fingerprint or facial recognition
-- **Offline Transactions**: Process payments without internet
-- **Advanced Analytics**: Spending insights and vendor reports
-- **Draft Button for Bills**: Save bills before finalizing
+## 4) [Math Proof (Code)](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/math_proof.py)  
+
+### Vendor Reward System Simulation  
+
+**Overview**  
+This project simulates customer behavior in a vendor reward system across three types of vendors: Small, Medium, and Big. The goal is to simulate customer transactions before and after the implementation of a reward system, comparing sales and spending behaviors.
+
+**Features**  
+- **Before Reward Simulation**: Customers make random transactions with different frequencies and amounts across small, medium, and big vendors.  
+- **After Reward Simulation**: A reward system is introduced, where customers earn and redeem points based on their spending, which influences their behavior.  
+- **Threshold-Driven Spending**: Customers increase their spending when thresholds are implemented, motivated by potential rewards.  
+- **Increased Engagement with Fast Food and Entertainment Sectors**: The simulation reflects increased customer engagement, especially in sectors like fast food chains, with higher spending and frequency due to loyalty programs.
+
+**Key Simulations**  
+- **Threshold-Driven Spending**: Customers are incentivized to increase their spending when thresholds are implemented.  
+- **Increased Engagement with Fast Food and Entertainment Sectors**: A boost in customer visit frequency and ticket size when loyalty programs are introduced.
+
+**Output**  
+- Average sales for each vendor type (Small, Medium, Big) before and after the implementation of the reward system.  
+- A bar chart that compares sales before and after the reward system for each vendor type.
+
+**Running the Code**  
+Simply run the Python script, and it will simulate the transactions, calculate average sales, and display a bar chart comparing sales before and after the reward system.
+
+![Sales Chart](sales_graph.png)
 
 ---
 
-## License
-This project is licensed under the MIT License.
+## 5) [UI Ideation](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/UI%20ideation.pdf)  
 
----
+### We have shown how our demo frontend for the application will look.
