@@ -7,6 +7,8 @@ The detailed desciptions of the [App](https://github.com/AsitDesai/ECell-x-NPCI-
 The codebase and the documentations are attached in the directories as well.
 The step by step guide on using the app and website can be found in the [Instructions](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/App%20Demo%20System%20Setup.pdf) document.
 
+Demo working videos of both the app and the website are attached as well.
+
 # Our Solution
 
 Unified Reward System (URS) is a cross-vendor rewards platform integrated with **NPCI** for secure, seamless point accumulation and redemption across multiple retail chains. It benefits both customers and vendors by driving engagement and sales.
