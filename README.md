@@ -7,7 +7,7 @@ Unified Reward System (URS) is a cross-vendor rewards platform integrated with *
 [Final Report](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Final%20Report.pdf)
 
 
-![Unified Reward System](Round 1 submission/Unified_Reward_System.png)
+![Unified Reward System](Unified_Reward_System.png)
 
 ## 1) [Proof of Concept (PoC)](https://github.com/AsitDesai/ECell-x-NPCI-Hackathon/blob/main/Proof%20of%20Concept.pdf)  
 
